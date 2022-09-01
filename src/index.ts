@@ -1,10 +1,3 @@
-declare function jsiGetHostname(): number[];
+declare function jsiGetHostname(): string;
 
-export function getHostname(): string {
-  const data = jsiGetHostname().filter(Boolean);
-  const hostname = data
-    .map((character) => String.fromCharCode(character))
-    .join('');
-
-  return hostname;
-}
+export const getHostname = jsiGetHostname;

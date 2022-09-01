@@ -1,17 +1,12 @@
 #include "react-native-network-info.h"
 
-jsi::Value getHostname (jsi::Runtime &rt, const jsi::Value &thisValue, const jsi::Value *args, size_t count) {
+jsi::Value getHostname(jsi::Runtime &rt, const jsi::Value &thisValue, const jsi::Value *args, size_t count) {
     char hostname[MAX_HOSTNAME_LENGTH];
-    jsi::Array result = jsi::Array(rt, sizeof(hostname));
     
     if (gethostname(hostname, sizeof(hostname)) != 0)
         jsi::detail::throwJSError(rt, "Err");
     
-    for (int i = 0; i < sizeof(hostname); i++) {
-        result.setValueAtIndex(rt, i, jsi::Value(int(hostname[i])));
-    }
-    
-    return result;
+    return jsi::String::createFromAscii(rt, hostname);
 };
 
 void installNetworkInfo(jsi::Runtime &rt) {
