@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-network-info": ["./src/index"]
+      "react-native-network-details": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

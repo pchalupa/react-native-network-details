@@ -1,17 +1,17 @@
-# react-native-network-info
+# react-native-network-details
 
 This is my playground learning JSI.
 
 ## Installation
 
 ```sh
-npm install react-native-network-info
+npm install react-native-network-details
 ```
 
 ## Usage
 
 ```js
-import { getHostname } from 'react-native-network-info';
+import { getHostname } from 'react-native-network-details';
 
 // ...
 

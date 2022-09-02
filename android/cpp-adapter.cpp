@@ -1,5 +1,5 @@
 #include <jni.h>
-#include "react-native-network-info.h"
+#include "react-native-network-details.h"
 
 extern "C"
 JNIEXPORT jint JNICALL

@@ -5,7 +5,7 @@ set (CMAKE_CXX_STANDARD 11)
 
 add_library(cpp
             SHARED
-            ../cpp/react-native-network-info.cpp
+            ../cpp/react-native-network-details.cpp
             cpp-adapter.cpp
 )
 

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-network-info",
+  "name": "react-native-network-details",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-network-info.podspec",
+    "react-native-network-details.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/pchalupa/react-native-network-info",
+  "repository": "https://github.com/pchalupa/react-native-network-details",
   "author": "pchalupa <chalupa.petr93@gmail.com> (https://github.com/pchalupa)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pchalupa/react-native-network-info/issues"
+    "url": "https://github.com/pchalupa/react-native-network-details/issues"
   },
-  "homepage": "https://github.com/pchalupa/react-native-network-info#readme",
+  "homepage": "https://github.com/pchalupa/react-native-network-details#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

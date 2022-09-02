@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { getHostname } from 'react-native-network-info';
+import { getHostname } from 'react-native-network-details';
 
 export default function App() {
   const hostname = useRef(getHostname());
